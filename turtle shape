@@ -1,0 +1,28 @@
+import turtle
+
+def draw_filled_polygon(sides, length, outline_color, fill_color):
+    angle = 360 / sides
+
+    turtle.color(outline_color)
+    turtle.begin_fill()
+    for _ in range(sides):
+        turtle.forward(length)
+        turtle.left(angle)
+    turtle.end_fill()
+
+num_sides = int(input("Enter the number of sides: "))
+side_length = int(input("Enter the length of the side: "))
+outline_color = input("Enter the outline color: ")
+fill_color = input("Enter the fill color: ")
+
+screen = turtle.Screen()
+
+polygon_turtle = turtle.Turtle()
+
+draw_filled_polygon(num_sides, side_length, outline_color, fill_color)
+
+turtle.done()
+
+#Eric Sarmiento
+#8/2/2024
+#This program make a shape
