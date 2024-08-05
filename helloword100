@@ -1,0 +1,9 @@
+i = 0
+print("Hello World")
+while (i <= 100):
+    print("Hello World")
+    i = i + 1
+
+#Eric Sarmiento
+#8/2/2024
+#This program prints hello world 100 times
