@@ -1,0 +1,11 @@
+xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+print("Printing the numbers..")
+for i in xs:
+    print(i)
+print("\nNumber and its square")
+for i in xs:
+    print(i, i ** 2)
+
+#Eric Sarmiento
+#7/31/2024
+#Ths program loop number on a new line and print the numbers square.
